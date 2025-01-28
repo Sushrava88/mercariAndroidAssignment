@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="60971" started-at="2025-01-28T09:59:33 IST" finished-at="2025-01-28T10:00:34 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestsRunner@795cd85e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="60971" started-at="2025-01-28T09:59:33 IST" finished-at="2025-01-28T10:00:34 IST">
+      <class name="runner.TestsRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestsRunner@795cd85e]" name="setUpClass" is-config="true" duration-ms="701" started-at="2025-01-28T09:59:33 IST" finished-at="2025-01-28T09:59:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:runner.TestsRunner@795cd85e]" name="beforeClass" is-config="true" duration-ms="122" started-at="2025-01-28T09:59:34 IST" finished-at="2025-01-28T09:59:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestsRunner@795cd85e]" name="runScenario" duration-ms="53536" started-at="2025-01-28T09:59:34 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-28T10:00:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user can successfully complete a purchase"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Purchase Flow]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestsRunner@795cd85e]" name="tearDownClass" is-config="true" duration-ms="6564" started-at="2025-01-28T10:00:27 IST" finished-at="2025-01-28T10:00:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:runner.TestsRunner@795cd85e]" name="afterClass" is-config="true" duration-ms="0" started-at="2025-01-28T10:00:27 IST" finished-at="2025-01-28T10:00:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- runner.TestsRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
